@@ -1,33 +1,24 @@
-# CS61B: Data Structures and Algorithms
+# MIT6.1600: Foundations of Computer Security
 
 ## Descriptions
 
-- Offered by: UC Berkeley
-- Prerequisites: CS61A
-- Programming Languages: Java
+- Offered by: MIT
+- Prerequisites: discrete mathematics, basic programming, basic knowledge of computer systems
+- Programming Languages: Python3
 - Difficulty: 🌟🌟🌟
-- Class Hour: 60 hours
+- Class Hour: 50 hours
 
-It is the second course of UC Berkeley's CS61 series. It mainly focuses on the design of data structures and algorithms as well as giving students the opportunity to be exposed to thousands of lines of engineering code and gain a preliminary understanding of software engineering through Java.
+MIT6.1600 is the undergraduate course on computer system security at MIT. The course is divided into five modules: authentication, transport security, platform security, software security, and human/end-user security. The organization of the course is quite clear: the authentication module focuses on authentication security, that is, how to prove that the "you" in the computer world is indeed "you". It then moves to the topic on communication security, such as data encryption and decryption, key exchange, etc. However, transport is only one aspect; the code ultimately needs to run on a device, which involves the security of the platform on which the code runs and even the software code itself. The course will also cover some content about privacy security, discussing group information security from a sociological perspective. 
 
-I took the version for 2018 Spring. Josh Hug, the instructor, generously made the autograder open-source. You can use [gradescope](https://gradescope.com/) invitation code published on the website for free and easily test your implementation.
+After completing this course, you will master many important fundamental concepts of computer security, such as public and private key encryption algorithms, hash algorithms, digital signatures, key exchange algorithms, and more. Besides the mathematics and theorem proofs, the course also uses the theoretical knowledge to explain many real-world security vulnerabilities, giving you a more concrete understanding of these security concepts. Additionally, there are six interesting labs that allow you to exploit many vulnerabilities through programming, deepening your understanding of the knowledge in practice, which I personally find quite interesting.
 
-All programming assignments in this course are done in Java. Students without Java experience don't have to worry. There will be detailed tutorials in the course from the configuration of IDEA to the core syntax and features of Java.
-
-The quality of homework in this class is also unparalleled. The 14 labs will allow you to implement most of the data structures mentioned in the class by yourself, and the 10 homework will allow you to use data structures and algorithms to solve practical problems.
-In addition, there are 3 projects that give you the opportunity to be exposed to thousands of lines of engineering code and enhance your Java skills in practice.
-
-## Resources
 ## Course Resources
 
-- Course Website: [spring2024](https://sp24.datastructur.es/), [fall2023](https://fa23.datastructur.es/), [spring2023](https://sp23.datastructur.es/), [spring2018](https://sp18.datastructur.es/)
-- Recordings: refer to the course website
-- Textbook: None
-- Assignments: Slightly different every year. In the spring semester of 2018, there are 14 Labs, 10 Homework and 3 Projects. Please refer to the course website for specific requirements.
+- Course Website: [fall23](https://61600.csail.mit.edu/2023/), [fall22](https://61600.csail.mit.edu/2022/)
+- Recordings: Refer to the course website.
+- Textbooks: There is no required textbook, but the lecture notes are good reading materials.
+- Assignments: 6 labs in total.
 
-## Academic Integrity Notice
-Academic integrity is of utmost importance in this course. You are expected to uphold the highest standards of honesty and ethical behavior in all your academic work. Plagiarism, cheating, and other forms of academic dishonesty are strictly prohibited.
-Plagiarism: Do not copy someone else's work, including code, essays, or research, and present it as your own. All assignments and projects must be your original work. If you use external sources, make sure to properly cite them.
-Cheating: Do not seek unauthorized assistance during exams or quizzes. This includes using notes, electronic devices, or communicating with others in an inappropriate way.
-Collaboration: While some group work may be encouraged, make sure that you understand the boundaries of collaboration. Each student is responsible for their own learning and contribution to the group.
-Violations of academic integrity will result in serious consequences, including but not limited to a failing grade for the assignment, course, or even disciplinary action from the university. By participating in this course, you agree to abide by the academic integrity policies of the institution.
+## Personal Resources
+
+All the resources and assignments used by @PKUFlyingPig in this course are maintained in [PKUFlyingPig/MIT6.1600 - GitHub](https://github.com/PKUFlyingPig/MIT6.1600).
